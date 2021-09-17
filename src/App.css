@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 13px;
+  color: #777e90;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.logo {
+  height: 50px;
+}
+header {
+  border-bottom: 0.5px solid #edeef2;
+}
+.container {
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.section-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 15px 25px;
+}
+.title{
+  font-weight: 500;
+  padding: 15px 0px;
+  font-size: 27px;
+}
+.para {
+  padding: 10px 0px;
+  width: 80%;
+}
+/* services */
+.services h5{
+  padding: 15px 0;
+}
+.services ul{
+  padding-left: 25px;
+}
+.services ul li {
+  line-height: 1.4;
+  font-size: 13px;
+  color: #777e90;
+}
+.services ul li::marker{
+  color: #424c64;
+}
+/*price_section */
+.price_section{
+  width: 80%;
+  display: flex;
+  margin-top: 15px;
+  padding: 10px 0;
+  justify-content: space-between;
+  border-top: 0.5px solid #edeef2;
+  border-bottom: 0.5px solid #edeef2;
+  
+}
+.price_section2{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  margin-top: 15px;
+  padding: 10px 0;
+  justify-content: space-between;
+  border-top: 0.5px solid #edeef2;
+  border-bottom: 0.5px solid #edeef2;
+  
+}
+.price_section span{
+  font-size: 15px;
+  font-weight: bold;
+  color: #111c37;
+  letter-spacing: 0.5px;
+}
+.section-right {
+  text-align: center;
+  width: 50%;
+  padding: 15px 25px;
+}
+.section-right form input,select{
+  width: 80%;
+  margin-top: 10px;
+  padding: 15px;
+  border: 0.5px solid #edeef2;
+  border-radius: 10px;
+}
+.section-right form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.section-right h5{
+  margin-top: 20px;
+  color: #2d374f;
+  font-weight: bold;
+}
+
+.p{
+  display: block;
+    width: 80%;
+    padding: 5px 0px;
+    text-align: left;
+}
+.req-field{
+  padding: 20px 0px;
+  text-align: left;
+  width: 80%;
+}
+
+select option {
+  color: #666 !important;
+}
+.section-right form input.submit{
+  width: 50%;
+  background:#1c6cf8;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 0px;
+}
+.field{
+  width: 80%;
+  text-align: left;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.field div {
+  border-color: #edeef2;
+}
+
+
+@media(max-width: 1000px){
+  .container{
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .section-left, .section-right {
+    width: 100%;
+  }
+ 
+}
